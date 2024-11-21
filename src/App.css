@@ -751,8 +751,8 @@ nav .nav-btn {
   content: "";
   width: 168px;
   height: 2px;
-  background: yellow;
+  background: #fff;
   position: absolute;
   bottom: -5px;
-
+  transform: translateX(32px);
 }
