@@ -7,6 +7,7 @@ import { SectionTwo } from './Components/Second-Section/Section-two';
 import  CardSection  from './Components/Card-Section/CardSection'
 import ThirdSec from './Components/Third-Section/ThirdSec';
 import PublicMessage from './Components/Public-Message/PublixMessage';
+import { Service } from './Components/Service-Section/Service';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <CardSection/>
     <ThirdSec/>
     <PublicMessage/>
+    <Service/>
     </>
     
   );
