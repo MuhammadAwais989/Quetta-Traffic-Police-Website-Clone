@@ -16,6 +16,7 @@ function App() {
     <Header/>
     <Routes>
     <Route path='/about' element={<About/>}/>
+    <Route path='/' element={<Service/>}/>
     </Routes>
     </BrowserRouter>
     <HeroSection/>
