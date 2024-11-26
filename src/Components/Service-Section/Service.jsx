@@ -10,8 +10,9 @@ export function Service() {
                 <div className="service-heading">
                     <p>Our Service</p>
                     <div className="ser-card-cont">
-                        <Link to="/" className='card1'>
-                        </Link>
+                        {/* <Link to="/service" className='card1'>
+                        <h1>hi</h1>
+                        </Link> */}
                     </div>
                 </div>
             </div>
