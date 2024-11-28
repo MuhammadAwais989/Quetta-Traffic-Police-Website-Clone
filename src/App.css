@@ -763,6 +763,7 @@ nav .nav-btn {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .ser-card-1{
   width: 310px;
@@ -771,8 +772,8 @@ nav .nav-btn {
   box-shadow: 0 0 10px rgba(0,0,0,.25);
   position: relative;
   margin: 0px 13px;
-  overflow: hidden;
   padding: 0px 20px;
+  overflow: hidden;
 }
 .ser-card-1::before{
   background: linear-gradient(0deg,#0054ba,#002655)!important;
