@@ -800,6 +800,9 @@ nav .nav-btn {
   right: 0px;
   top: 0px;
   border-radius: 0px 4px 0px 32px;
+  padding: 3px 0px 0px 10px;
+  color: #fff;
+  cursor: pointer;
 }
 .ser-card-img{
   display: flex;

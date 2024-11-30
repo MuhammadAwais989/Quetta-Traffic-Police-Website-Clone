@@ -2,10 +2,10 @@ import React from 'react'
 import DigitalLicsence from '../../images/DigitalLicense-service.e6fd643a5b1a7d452bc8.gif'
 import Challan from '../../images/Mobile-App-ser.15e690cf0a7ae4d2afc5.gif'
 import MobileApp from '../../images/e-challan-service.cec772e071358e8a8834.gif'
+import { useNavigate } from 'react-router-dom'
 
 export function Service() {
-    
-
+    const navigate = useNavigate();
     return (
         <>
             <div className='service-container'>
@@ -14,8 +14,8 @@ export function Service() {
                     <div className="ser-card-cont">
 
                         <div className='ser-card-1'>
-                            <div className="corner" href="#">
-
+                            <div className="corner"  onClick={ () => navigate('/') }>
+                            →
                             </div>
                             <div className="ser-card-img">
                                 <img src={DigitalLicsence} alt="" />
@@ -44,7 +44,7 @@ export function Service() {
                             </div>
                         </div>
                        
-
+                        <img src="" alt="" />
                     </div>
                 </div>
             </div>
