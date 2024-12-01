@@ -3,7 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
-body {
+body, html {
   width: 100%;
   height: 100%;
   overflow-x: hidden !important;
@@ -19,7 +19,7 @@ header {
   align-items: center;
   padding: 0px 40px;
   font-size: 14px;
-  z-index: 1;
+  z-index: 5;
 }
 .scrolled{
   background: linear-gradient(0deg,#0054ba,#002655)!important;
@@ -282,7 +282,7 @@ nav .nav-btn {
 .hero-section {
   position: relative;
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   background: url(../src/images/MainSection.274438f8b4f813dbf313.png);
   background-position-x: 50%;
@@ -758,11 +758,11 @@ nav .nav-btn {
 }
 .ser-card-cont{
   width: 100%;
-  height: 420px;
-  border: 1px solid green;
+  height: 350px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .ser-card-1{
@@ -774,6 +774,7 @@ nav .nav-btn {
   margin: 0px 13px;
   padding: 0px 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .ser-card-1::before{
   background: linear-gradient(0deg,#0054ba,#002655)!important;
@@ -836,4 +837,9 @@ nav .nav-btn {
 }
 .ser-card-1:hover .ser-card-img > p{
   color: #fff;
+}
+.app-sec-cont{
+  width: 100%;
+  height: 300px;
+  border: 1px solid #000;
 }
