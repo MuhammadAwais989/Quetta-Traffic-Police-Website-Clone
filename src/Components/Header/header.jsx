@@ -32,7 +32,7 @@ export function Header() {
 
   return (
     <>
-      <header className={isScrolled ? "scrolled" : ""}>
+      <header className={isScrolled ? "scrolled" : "" }>
         <div className="h-logo">
           <img src={logo} alt="" />
         </div>
@@ -107,9 +107,12 @@ export function Header() {
             </Link>
           </div>
         </nav>
-      <div className={navhide ? "menu-icon" : ".nav-hide"} onClick={ () => setnavhide(false)}>
-        <TbMenuDeep className="nav-icon" onClick={() => setmobNav(true) } />
-      </div>
+        <div
+          className={navhide ? "menu-icon" : ".nav-hide"}
+          onClick={() => setnavhide(false)}
+        >
+          <TbMenuDeep className="nav-icon" onClick={() => setmobNav(true)} />
+        </div>
       </header>
 
       {/* Mobile Nav */}

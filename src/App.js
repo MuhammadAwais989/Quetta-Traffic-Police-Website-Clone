@@ -15,7 +15,6 @@ function App() {
     <BrowserRouter>
     <Header/>
     <Routes>
-    <Route path='/' element={<HeroSection/>}/>
     <Route path='/about' element={<About/>}/>
     </Routes>
     </BrowserRouter>

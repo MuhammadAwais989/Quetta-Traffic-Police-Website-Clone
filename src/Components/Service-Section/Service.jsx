@@ -25,7 +25,7 @@ export function Service() {
                         </div>
                         <div className='ser-card-1'>
                             <div className="corner" href="#">
-
+                            →
                             </div>
                             <div className="ser-card-img">
                                 <img src={Challan} alt="" />
@@ -35,7 +35,7 @@ export function Service() {
                         </div>
                         <div className='ser-card-1'>
                             <div className="corner" href="#">
-
+                            →
                             </div>
                             <div className="ser-card-img">
                                 <img src={MobileApp} alt="" />
