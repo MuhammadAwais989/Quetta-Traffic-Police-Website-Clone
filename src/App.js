@@ -8,6 +8,7 @@ import  CardSection  from './Components/Card-Section/CardSection'
 import ThirdSec from './Components/Third-Section/ThirdSec';
 import PublicMessage from './Components/Public-Message/PublixMessage';
 import {Service} from './Components/Service-Section/Service'
+import  AppSection  from './Components/App-Section/AppSection'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     <ThirdSec/>
     <PublicMessage/>
     <Service/>
+    <AppSection/>
     </>
     
   );
