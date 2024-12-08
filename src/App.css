@@ -850,3 +850,45 @@ nav .nav-btn {
   height: 300px;
   border: 1px solid #000;
 }
+.app-sec-top{
+  width: 100%;
+  height: fit-content;
+  border: 1px solid rgb(226, 8, 8);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 36px;
+}
+.app-react-img img:nth-child(1){
+  width: 120px;
+  height:160px;
+  margin-left: 40px;
+}
+.app-react-img img:nth-child(2){
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  top: 40px;
+  left: 87px;
+}
+.top-right-img img{
+  width: 110px;
+  height: 161px;
+  transform: translateY(-80px);
+}
+.app-sec-heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.app-sec-heading h1{
+  text-transform: uppercase;
+  color: #003369;
+  font-family: sans-serif;
+}
+.app-sec-heading span{
+  width: 266px;
+  height: 2px;
+  background-color: #000;
+}
